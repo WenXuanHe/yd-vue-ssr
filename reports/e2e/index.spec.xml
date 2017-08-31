@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="index.spec"
+    errors="1" failures="0" hostname="" id="" package="index.spec" skipped="0"
+    tests="1" time="0.01200" timestamp="Wed, 23 Aug 2017 14:19:06 GMT">
+  
+    <testcase name="topics e2e tests" classname="index.spec" time="0.01200" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Index Spec / topics e2e tests]:
+
+  TypeError: browser.url(...).waitForElementVisible(...).assert.elementPresent(...).assert.elementCount is not a function
+    at Object.topics e2e tests (/Users/yuanzhijia/Desktop/yd-vue-ssr/test/e2e/index.spec.js:9:15)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

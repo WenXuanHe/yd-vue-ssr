@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="global"
+    errors="1" failures="0" hostname="" id="" package="global" skipped="0"
+    tests="1" time="0.3780" timestamp="Wed, 23 Aug 2017 02:48:59 GMT">
+  
+    <testcase name="reporter" classname="global" time="0.3780" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Global / reporter]:
+
+  TypeError: done is not a function
+    at /Users/yuanzhijia/Desktop/yd-vue-ssr/node_modules/nightwatch-html-reporter/lib/reporter.js:80:7
+    at /Users/yuanzhijia/Desktop/yd-vue-ssr/node_modules/async/dist/async.js:3861:9
+    at /Users/yuanzhijia/Desktop/yd-vue-ssr/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/yuanzhijia/Desktop/yd-vue-ssr/node_modules/async/dist/async.js:924:17)
+    at /Users/yuanzhijia/Desktop/yd-vue-ssr/node_modules/async/dist/async.js:906:16
+    at /Users/yuanzhijia/Desktop/yd-vue-ssr/node_modules/async/dist/async.js:3858:13
+    at /Users/yuanzhijia/Desktop/yd-vue-ssr/node_modules/nightwatch-html-reporter/lib/reporter.js:54:18
+    at /Users/yuanzhijia/Desktop/yd-vue-ssr/node_modules/async/dist/async.js:421:16
+    at next (/Users/yuanzhijia/Desktop/yd-vue-ssr/node_modules/async/dist/async.js:5302:29)
+    at /Users/yuanzhijia/Desktop/yd-vue-ssr/node_modules/async/dist/async.js:906:16
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
